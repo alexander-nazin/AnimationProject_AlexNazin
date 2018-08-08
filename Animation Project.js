@@ -1763,12 +1763,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,77.4,53);
 		{
 			self.gotoAndPlay(); 
 		}
-		createjs.Sound.registerSound("/sounds/reka.mp3","reka");
-		createjs.Sound.registerSound("/sounds/end.mp3","end");
-		createjs.Sound.registerSound("/sounds/crow.mp3","crow");
-		createjs.Sound.registerSound("/sounds/roar.mp3","roar");
-		createjs.Sound.registerSound("/sounds/rat.mp3","rat");
-		createjs.Sound.registerSound("/sounds/squish.mp3","squish");
+		createjs.Sound.registerSound("/AnimationProject_AlexNazin/sounds/reka.mp3","reka");
+		createjs.Sound.registerSound("/AnimationProject_AlexNazin/sounds/end.mp3","end");
+		createjs.Sound.registerSound("/AnimationProject_AlexNazin/sounds/crow.mp3","crow");
+		createjs.Sound.registerSound("/AnimationProject_AlexNazin/sounds/roar.mp3","roar");
+		createjs.Sound.registerSound("/AnimationProject_AlexNazin/sounds/rat.mp3","rat");
+		createjs.Sound.registerSound("/AnimationProject_AlexNazin/sounds/squish.mp3","squish");
 	}
 	this.frame_1 = function() {
 		createjs.Sound.play("reka");
